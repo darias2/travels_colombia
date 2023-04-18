@@ -1,0 +1,45 @@
+.navbar{
+background-color: #000000;
+height: 100vh;
+display: flex;
+
+&Options{
+    width: 30vw;
+    display:flex;
+    flex-direction: column;
+    color:bisque;
+    align-items: center;
+    padding-top: 13em;
+    gap: 2em;
+   
+
+    & a{
+        color:bisque;
+        font-size: 1.5em;
+    }
+
+    & :first-child{
+        text-transform: capitalize;
+        font-size: 3em;
+        margin-bottom: 3em;
+    }
+}
+&Right{
+    width: 70vw;
+    background-image: url("/assets/home/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &Logo{
+    
+        font-size: 3.3em;
+        color: bisque;
+        border: solid 1px lightgreen;
+        padding: 0.3em 2em;
+        
+    }
+}
+}
+

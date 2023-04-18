@@ -1,23 +1,23 @@
-.navbar{
-    background-color: black;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 3em;
-    font-size: 1.5em;
+// .navbar{
+//     background-color: black;
+//     display: flex; 
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 1em 3em;
+//     font-size: 1.5em;
 
-    &[class*="logo"]{
-        color:antiquewhite;
-    }
-    &-list{
-        display: flex;
-        flex-direction: row;
-        gap: 1em;
-        justify-content: center;
-        align-items: center;
-        &-item{
-            color:antiquewhite;
-            padding:0.1em 0.1em;
-        }
-    }
-}
+//     &[class*="logo"]{
+//         color:antiquewhite;
+//     }
+//     &-list{
+//         display: flex;
+//         flex-direction: row;
+//         gap: 1em;
+//         justify-content: center;
+//         align-items: center;
+//         &-item{
+//             color:antiquewhite;
+//             padding:0.1em 0.1em;
+//         }
+//     }
+// }
